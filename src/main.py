@@ -66,4 +66,4 @@ pprint.pprint(usuarios)
 #  passa a ser O(1), resultando em O(N + M) no total.
 # Isso reduz drasticamente o tempo de execução
 # quando lidamos com grandes volumes de dados.
-FUNCIONANDO COMMIT?
+# FUNCIONANDO COMMIT?
