@@ -62,6 +62,7 @@ pprint.pprint(usuarios)
 #  para verificar se o ID estava presente,
 # o que resultava em complexidade O(N*M),
 #  onde N é o número de usuários e M o número de IDs.
+
 # Ao usar um `set`, a verificação `id in set`
 #  passa a ser O(1), resultando em O(N + M) no total.
 # Isso reduz drasticamente o tempo de execução
