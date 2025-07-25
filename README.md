@@ -1,10 +1,6 @@
 # Script para estudar
-- Configuração profissional do VS Code
 - Ambiente virtual isolado
 - Linters e formatadores automáticos
-- Testes automatizados com `pytest`
-- Suporte a variáveis de ambiente via `.env`
-- Script de instalação, formatação e testes
 
 
 ## 🧪 Rodando Testes
