@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "estudos"
+version = "1.0.0"
+description = "Apenas arquivo de estudos"
+authors = ["Carlos Eduardo"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+black = ">=25.1.0,<26.0.0"
+isort = ">=6.0.1,<7.0.0"
+pylint = ">=3.3.7,<4.0.0"
+flake8 = ">=7.3.0,<8.0.0"
+pytest = ">=8.4.1,<9.0.0"
+python-dotenv = ">=1.1.1,<2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+
+[tool.black]
+line-length = 95
+include = '\.py$'
+exclude = '/(\.venv|venv|build|dist|\.git|\.mypy_cache)/'
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
